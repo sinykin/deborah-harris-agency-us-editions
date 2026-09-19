@@ -1,6 +1,6 @@
 # Deborah Harris Agency titles in US editions, 2000–2026
 
-Books represented by the **Deborah Harris Agency** (DHA) that appeared in US editions, 2000–2026, compiled and quality-checked title by title. Each row carries the evidence for including it and a confidence label.
+Books represented by the **Deborah Harris Agency** (DHA) that appeared in US editions, 2000–2026, compiled and quality-checked title by title. Each row carries the evidence for including it.
 
 ## Files
 
@@ -22,18 +22,6 @@ The LITERARY file is a strict subset of the ALL file; the two share the same col
 | `Category` | `ISRAELI-LITERARY` 45 · `COMMERCIAL/GENRE` 24 · `CHILDRENS` 19 · `YA` 15 · `ENGLISH-LITERARY` 5 |
 | `Source language` | Hebrew 56 · English 52 |
 | `Harris evidence` | Prose note recording *why* the row is included: agency roster page, publisher or Publishers Weekly page, ISBN, translator, and any judgement calls, usually with URLs |
-| `Confidence` | See below |
-
-## Confidence
-
-| Value | Rows (ALL) |
-|---|---|
-| `confirmed (agency roster)` | 79 |
-| `confirmed (QC-verified deal)` | 21 |
-| `confirmed (PM deal record)` | 7 |
-| `UNCONFIRMED — likely ITHL-brokered, not DHA` | 1 |
-
-The single unconfirmed row (Shifra Horn, *The Fairest Among Women*) is kept and labelled rather than dropped: the author's site credits the Institute for the Translation of Hebrew Literature for her books, so DHA representation for this title is not established.
 
 ## Judgement calls
 
@@ -45,6 +33,10 @@ Four rows carry a `FLAG` in the evidence column, marking a decision a reader mig
 
 ## Caveats
 
+- **One row is not confirmed as DHA-represented.** Shifra Horn, *The Fairest Among Women* (2001) is kept and its
+  `Harris evidence` says why: she is not on the DHA client roster, and her site credits the Institute for the Translation
+  of Hebrew Literature for her books. Every other row's evidence cites the agency roster, a QC-verified deal, or a
+  Publishers Marketplace deal record.
 - **Coverage depends on what could be documented.** Agency rosters change, and titles whose representation left no public trace may be missing. Treat yearly counts as a lower bound.
 - **2026 is a part-year** (7 rows), so it is not comparable with full years.
 - **`Category` is an editorial judgement**, not a label taken from the publisher.
